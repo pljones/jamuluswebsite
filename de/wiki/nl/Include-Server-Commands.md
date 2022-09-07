@@ -1,19 +1,19 @@
 - `-d`  of `--discononquit`   Verbreek de verbinding met alle clients bij afsluiten. Normaal gesproken, wanneer een server wordt gestopt of opnieuw wordt opgestart, zullen alle clients die hun "Verbinding verbreken"-knop niet hebben gebruikt, de verbinding herstellen wanneer de server weer actief is. Als je deze optie gebruikt, worden clients gedwongen hun verbinding met de server handmatig opnieuw tot stand te brengen.  
 - `-e`  of `--directoryserver`  Registreer de server op een adresboek (bijv. om het genre in te stellen (zie ook `-o`)). Zie [servertypen](#servertypen) voor meer informatie.
-- `--directoryfile` Onthoud geregistreerde servers, zelfs als het adresboek opnieuw wordt gestart. Alleen adresboek servers. Zie [deze handleiding](Custom-Directories) voor meer informatie. 
-- `-f`  of `--listfilter`     Whitelist-servers die zich registreren op de serverlijst, formaat `ip-adres 1[;ip-adres 2]`. Alleen voor adresboeken. 
+- `--directoryfile` Remember registered Servers even if the Directory is restarted. Directory Servers only. See [this guide](Directories) for further information.
+- `-f`  or `--listfilter`     Whitelist Servers registering on the Server list, format `ip address 1[;ip address 2]` Directories only.
 -  `-F`  of `--fastupdate`     Vermindert de latency als clients verbinding maken met de optie "Kleine netwerkbuffers inschakelen". Vereist een snellere CPU om uitval te voorkomen en meer bandbreedte voor clients die dit ingeschakeld hebben.
 -  `-l`  of `--log`            Logboek inschakelen, pad en bestandsnaam instellen                                                                    
 - `-L`  of `--licence`        Laat een venster zien voordat gebruikers verbinding kunnen maken
 - `-m`  of `--htmlstatus`     HTML-statusbestand inschakelen, pad en bestandsnaam instellen
 - `-o`  of `--serverinfo`     Locatie details in het formaat:  `[naam];[stad];[locale waarde]` (zie [waarden](https://doc.qt.io/qt-5/qlocale.html#Country-enum)). Alleen geregistreerde servers.
 - `-P`  of `--delaypan`       Start met delay panning ingeschakeld. Zie [opmerking](#delay-panning-inschakelen)
-- `-R`  of `--recording`      Geef een beschrijfbaar pad op waar de opnamebestanden moeten worden opgeslagen (indien nodig tussen aanhalingstekens).  Zie [opties](#opties).  
-- `--norecord`       Opname uitschakelen indien standaard ingeschakeld door `-R`                                                 
+- `-R`  or `--recording`      Set server recording directory; Server will record when a session is active by default. See [Options](#options).  
+- `--norecord`                Set server not to record by default (when recording is configured e.g via `-R`)
 - `-s` of `--server` Start in server modus
 - `--serverbindip`  Geef het IP-adres op om aan te binden              
 -  `-T` of `--multithreading`  Gebruik multithreading om beter gebruik te maken van multi-core CPU's om meer clients te ondersteunen
 -  `-u` of `--numchannels`   Maximum aantal kanalen (clients)
 -  `-w` of `--welcomemessage`  Welkomstbericht bij verbindingmaken. Kan worden opgegeven als een tekenreeks of bestandsnaam en kan HTML bevatten.
 -  `-z` of `--startminimized`  Start geminimaliseerd
--  `--serverpublicip`  Het openbare IP-adres van de server als verbinding wordt gemaakt met een adresboek achter dezelfde NAT. Zie [aandachtspunten voor adresboeken](Custom-Directories#aandachtspunten-voor-adresboeken)
+-  `--serverpublicip`  The public IP address of the Server if connecting to a Directory behind the same NAT. See [Notes on Directories](Directories#points-to-note-about-directories)
