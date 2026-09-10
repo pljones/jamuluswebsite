@@ -965,8 +965,9 @@ msgstr "$HOME/Library/Containers/app.jamulussoftware.Jamulus/Data/.config/Jamulu
 
 #. type: Title #
 #: ../wiki/en/Software-Manual.md:380
-#, no-wrap
-msgid "Command Line Options"
+#, fuzzy, no-wrap
+#| msgid "Command Line Options"
+msgid "Client Command Line Options"
 msgstr "命令行选项"
 
 #. type: Plain text
@@ -999,22 +1000,27 @@ msgstr " /Applications/Jamulus.app/Contents/MacOS/Jamulus --inifile \"/path/to/m
 
 #. type: Plain text
 #: ../wiki/en/Software-Manual.md:397
+msgid "{% include_relative Include-Shared-Commands.md %}"
+msgstr "{% include_relative Include-Shared-Commands.md %}"
+
+#. type: Plain text
+#: ../wiki/en/Software-Manual.md:399
 msgid "{% include_relative Include-Client-Commands.md %}"
 msgstr "{% include_relative Include-Client-Commands.md %}"
 
 #. type: Plain text
-#: ../wiki/en/Software-Manual.md:399
-msgid "{% include_relative Include-Shared-Commands.md %}"
-msgstr "{% include_relative Include-Shared-Commands.md %}"
+#: ../wiki/en/Software-Manual.md:401
+msgid "Server options are listed in [Running a Server](Running-a-Server#configuration-options)."
+msgstr ""
 
 #. type: Title #
-#: ../wiki/en/Software-Manual.md:400
+#: ../wiki/en/Software-Manual.md:402
 #, no-wrap
 msgid "Controlling the Client via API"
 msgstr "通过 API 控制客户端"
 
 #. type: Plain text
-#: ../wiki/en/Software-Manual.md:402
+#: ../wiki/en/Software-Manual.md:404
 msgid "In addition to the CLI, Jamulus can be controlled using an API. This is beneficial for advanced use cases - for example, where there is no GUI, or another application needs to interact with Jamulus. Please note that the API is still experimental. Information on the [JSON-RPC API can be found in the main repository](https://github.com/jamulussoftware/jamulus/blob/main/docs/JSON-RPC.md)."
 msgstr "除了命令行界面（CLI）之外，Jamulus 还可以通过 API 进行控制。这对于高级用例非常有用，例如没有图形用户界面（GUI）的情况，或者其他应用程序需要与 Jamulus 进行交互的情况。请注意，该 API 仍处于实验阶段。有关 [JSON-RPC API 的信息可以在主存储库中找到](https://github.com/jamulussoftware/jamulus/blob/main/docs/JSON-RPC.md)。"
 

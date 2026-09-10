@@ -1,0 +1,42 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. type: Plain text
+#: ../wiki/en/Include-Server-Commands.md:20
+#, markdown-text, no-wrap
+msgid ""
+"|<nobr> `-d` or `--discononquit`</nobr>| disconnect all Clients on quit |\n"
+"|<nobr> `-e` or `--directoryaddress`</nobr>| address of the Directory with which to register (or 'localhost' to run as a Directory) |\n"
+"|<nobr> `--directoryfile`</nobr>| File to hold server list across Directory restarts. Directories only. |\n"
+"|<nobr> `-f` or `--listfilter`</nobr>| Server list whitelist filter. Directories only. Format:<br/>`[IP address 1];[IP address 2];[IP address 3]; ...` |\n"
+"|<nobr> `-F` or `--fastupdate`</nobr>| use 64 samples frame size mode |\n"
+"|<nobr> `-l` or `--log`</nobr>| enable logging, set file name |\n"
+"|<nobr> `-L` or `--licence`</nobr>| show an agreement window before users can connect |\n"
+"|<nobr> `-m` or `--htmlstatus`</nobr>| deprecated, please use JSON-RPC instead |\n"
+"|<nobr> `-o` or `--serverinfo`</nobr>| registration info for this Server.  Format:<br/>`[name];[city];[country as two-letter ISO country code or Qt5 QLocale ID]` |\n"
+"|<nobr> `--serverpublicip`</nobr>| public IP address for this Server.  Needed when registering with a server list hosted behind the same NAT |\n"
+"|<nobr> `-P` or `--delaypan`</nobr>| start with delay panning enabled |\n"
+"|<nobr> `-R` or `--recording`</nobr>| set server recording directory; server will record when a session is active by default |\n"
+"|<nobr> `--norecord`</nobr>| set server not to record by default when recording is configured |\n"
+"|<nobr> `--noraw`</nobr>| disable raw audio |\n"
+"|<nobr> `-s` or `--server`</nobr>| start Server |\n"
+"|<nobr> `--serverbindip`</nobr>| IP address the Server will bind to (rather than all) |\n"
+"|<nobr> `-T` or `--multithreading`</nobr>| use multithreading to make better use of multi-core CPUs and support more Clients |\n"
+"|<nobr> `-u` or `--numchannels`</nobr>| maximum number of channels |\n"
+"|<nobr> `-w` or `--welcomemessage`</nobr>| welcome message to display on connect (string or filename, HTML supported) |\n"
+"|<nobr> `-z` or `--startminimized`</nobr>| start minimizied |\n"
+msgstr ""

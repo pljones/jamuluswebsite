@@ -21,60 +21,55 @@ msgstr ""
 msgid "[comment]: # (This is an include file for use in multiple documents)"
 msgstr "[comment]: # (Dit bestand is opgenomen in meerdere documenten)"
 
-#. type: Bullet: '- '
+#. type: Plain text
 #: ../wiki/en/Include-Shared-Commands.md:14
-msgid "`-h` or `--help` Display help text"
-msgstr "`-h` of `--help` Laat de help tekst zien"
+#, no-wrap
+msgid ""
+"|<nobr> `-h` or `--help`</nobr>| Display help text |\n"
+"|<nobr> `-i` or `--inifile`</nobr>| Set location of initialization file (overrides default. On macOS simply provide a filename only, since config files can only be read from `/Users/<username>/Library/Containers/app.jamulussoftware.Jamulus/Data/`. For the server replace `app.jamulussoftware.Jamulus` with `app.jamulussoftware.JamulusServer`. Turn on \"Show Library folder\" in \"Show view options\" in Finder to see this folder.) |\n"
+"|<nobr> `-n` or `--nogui`</nobr>| Disable GUI (for use in headless mode) |\n"
+"|<nobr> `-p` or `--port`</nobr>| Sets the local UDP port number. Default is 22124 |\n"
+"|<nobr> `--jsonrpcport`</nobr>| Enables JSON-RPC API server to control the app, set TCP port number (EXPERIMENTAL, APIs might change; only accessible from localhost). Please see [the JSON-RPC API Documentation file](https://github.com/jamulussoftware/jamulus/blob/main/docs/JSON-RPC.md). |\n"
+"|<nobr> `--jsonrpcsecretfile`</nobr>| Required when using `--jsonrpcport`. Sets a path to a text file containing an authentication string for getting access to the JSON-RPC API. |\n"
+"|<nobr> `--jsonrpcbindip`</nobr>| The IP address the JSON-RPC server should bind to. (optional, defaults to 127.0.0.1) |\n"
+"|<nobr> `-Q` or `--qos`</nobr>| Sets the quality of service DS Field byte. Default is 128 (DSCP/CS4). QoS is ignored by Windows. To enable it, [see this page](QOS-Windows) |\n"
+"|<nobr> `-t` or `--notranslation`</nobr>| Disable UI language translations |\n"
+"|<nobr> `-6` or `--enableipv6`</nobr>| Enable IPv6 addressing (IPv4 is always enabled) |\n"
+"|<nobr> `-v` or `--version`</nobr>| Output version information and exit |\n"
+msgstr ""
 
-#. type: Bullet: '- '
-#: ../wiki/en/Include-Shared-Commands.md:14
-msgid "`-i` or `--inifile` Set location of initialization file (overrides default. On macOS simply provide a filename only, since config files can only be read from `/Users/<username>/Library/Containers/app.jamulussoftware.Jamulus/Data/`. For the server replace `app.jamulussoftware.Jamulus` with `app.jamulussoftware.JamulusServer`. Turn on \"Show Library folder\" in \"Show view options\" in Finder to see this folder.)"
-msgstr "`-i` of `--inifile` Stel de locatie van het initialisatiebestand in (heeft voorrang op de standaardinstelling. Geef op macOS alleen een bestandsnaam op, aangezien configuratiebestanden alleen kunnen worden gelezen vanuit `/Users/<gebruikersnaam>/Library/Containers/app.jamulussoftware.Jamulus/Data/`. Vervang voor de server `app.jamulussoftware.Jamulus` door `app.jamulussoftware.JamulusServer`. Schakel \"Toon bibliotheekmap\" in \"Toon weergaveopties\" in Finder in om deze map te zien.)"
+#~ msgid "`-h` or `--help` Display help text"
+#~ msgstr "`-h` of `--help` Laat de help tekst zien"
 
-#. type: Bullet: '- '
-#: ../wiki/en/Include-Shared-Commands.md:14
-msgid "`-n` or `--nogui` Disable GUI (for use in headless mode)"
-msgstr "`-n` of `--nogui` Schakel de GUI uit (voor gebruik in headless mode)"
+#~ msgid "`-i` or `--inifile` Set location of initialization file (overrides default. On macOS simply provide a filename only, since config files can only be read from `/Users/<username>/Library/Containers/app.jamulussoftware.Jamulus/Data/`. For the server replace `app.jamulussoftware.Jamulus` with `app.jamulussoftware.JamulusServer`. Turn on \"Show Library folder\" in \"Show view options\" in Finder to see this folder.)"
+#~ msgstr "`-i` of `--inifile` Stel de locatie van het initialisatiebestand in (heeft voorrang op de standaardinstelling. Geef op macOS alleen een bestandsnaam op, aangezien configuratiebestanden alleen kunnen worden gelezen vanuit `/Users/<gebruikersnaam>/Library/Containers/app.jamulussoftware.Jamulus/Data/`. Vervang voor de server `app.jamulussoftware.Jamulus` door `app.jamulussoftware.JamulusServer`. Schakel \"Toon bibliotheekmap\" in \"Toon weergaveopties\" in Finder in om deze map te zien.)"
 
-#. type: Bullet: '- '
-#: ../wiki/en/Include-Shared-Commands.md:14
-msgid "`-p` or `--port` Sets the local UDP port number. Default is 22124"
-msgstr "`-p` of `--port` Stelt het lokale UDP poort nummer in. Standaard is dit: 22124"
+#~ msgid "`-n` or `--nogui` Disable GUI (for use in headless mode)"
+#~ msgstr "`-n` of `--nogui` Schakel de GUI uit (voor gebruik in headless mode)"
 
-#. type: Bullet: '- '
-#: ../wiki/en/Include-Shared-Commands.md:14
-msgid "`--jsonrpcport` Enables JSON-RPC API server to control the app, set TCP port number (EXPERIMENTAL, APIs might change; only accessible from localhost). Please see [the JSON-RPC API Documentation file](https://github.com/jamulussoftware/jamulus/blob/main/docs/JSON-RPC.md)."
-msgstr "`--jsonrpcport` Schakelt de JSON-RPC API-server in om de app te besturen, het TCP-poortnummer in te stellen (EXPERIMENTEEL, API's kunnen veranderen; alleen toegankelijk vanaf localhost). Zie ook [het JSON-RPC API documentatie bestand (engelstalig)](https://github.com/jamulussoftware/jamulus/blob/main/docs/JSON-RPC.md)."
+#~ msgid "`-p` or `--port` Sets the local UDP port number. Default is 22124"
+#~ msgstr "`-p` of `--port` Stelt het lokale UDP poort nummer in. Standaard is dit: 22124"
 
-#. type: Bullet: '- '
-#: ../wiki/en/Include-Shared-Commands.md:14
-msgid "`--jsonrpcsecretfile` Required when using `--jsonrpcport`. Sets a path to a text file containing an authentication string for getting access to the JSON-RPC API."
-msgstr "`--jsonrpcsecretfile` Vereist bij gebruik van `--jsonrpcport`. Stelt een pad in naar een tekstbestand dat een authenticatietekenreeks bevat om toegang te krijgen tot de JSON-RPC API."
+#~ msgid "`--jsonrpcport` Enables JSON-RPC API server to control the app, set TCP port number (EXPERIMENTAL, APIs might change; only accessible from localhost). Please see [the JSON-RPC API Documentation file](https://github.com/jamulussoftware/jamulus/blob/main/docs/JSON-RPC.md)."
+#~ msgstr "`--jsonrpcport` Schakelt de JSON-RPC API-server in om de app te besturen, het TCP-poortnummer in te stellen (EXPERIMENTEEL, API's kunnen veranderen; alleen toegankelijk vanaf localhost). Zie ook [het JSON-RPC API documentatie bestand (engelstalig)](https://github.com/jamulussoftware/jamulus/blob/main/docs/JSON-RPC.md)."
 
-#. type: Bullet: '- '
-#: ../wiki/en/Include-Shared-Commands.md:14
-msgid "`--jsonrpcbindip` The IP address the JSON-RPC server should bind to. (optional, defaults to 127.0.0.1)"
-msgstr "`--jsonrpcbindip` Het IP-adres waaraan de JSON-RPC-server moet binden (optioneel, standaard is dit 127.0.0.1)."
+#~ msgid "`--jsonrpcsecretfile` Required when using `--jsonrpcport`. Sets a path to a text file containing an authentication string for getting access to the JSON-RPC API."
+#~ msgstr "`--jsonrpcsecretfile` Vereist bij gebruik van `--jsonrpcport`. Stelt een pad in naar een tekstbestand dat een authenticatietekenreeks bevat om toegang te krijgen tot de JSON-RPC API."
 
-#. type: Bullet: '- '
-#: ../wiki/en/Include-Shared-Commands.md:14
-msgid "`-Q` or `--qos` Sets the quality of service DS Field byte. Default is 128 (DSCP/CS4). QoS is ignored by Windows. To enable it, [see this page](QOS-Windows)"
-msgstr "`-Q` of `--qos` Stelt de DS Field byte van de Quality of Service in. Standaard is dit: 128 (DSCP/CS4). QoS wordt genegeerd door Windows. Om het in te schakelen, [zie deze pagina](QOS-Windows)"
+#~ msgid "`--jsonrpcbindip` The IP address the JSON-RPC server should bind to. (optional, defaults to 127.0.0.1)"
+#~ msgstr "`--jsonrpcbindip` Het IP-adres waaraan de JSON-RPC-server moet binden (optioneel, standaard is dit 127.0.0.1)."
 
-#. type: Bullet: '- '
-#: ../wiki/en/Include-Shared-Commands.md:14
-msgid "`-t` or `--notranslation` Disable UI language translations"
-msgstr "`-t` of `--notranslation` Schakelt UI-vertaling uit"
+#~ msgid "`-Q` or `--qos` Sets the quality of service DS Field byte. Default is 128 (DSCP/CS4). QoS is ignored by Windows. To enable it, [see this page](QOS-Windows)"
+#~ msgstr "`-Q` of `--qos` Stelt de DS Field byte van de Quality of Service in. Standaard is dit: 128 (DSCP/CS4). QoS wordt genegeerd door Windows. Om het in te schakelen, [zie deze pagina](QOS-Windows)"
 
-#. type: Bullet: '- '
-#: ../wiki/en/Include-Shared-Commands.md:14
-msgid "`-6` or `--enableipv6` Enable IPv6 addressing (IPv4 is always enabled)"
-msgstr "`-6` of `--enableipv6` Schakelt IPv6 adressen in (IPv4 is altijd ingeschakeld)"
+#~ msgid "`-t` or `--notranslation` Disable UI language translations"
+#~ msgstr "`-t` of `--notranslation` Schakelt UI-vertaling uit"
 
-#. type: Bullet: '- '
-#: ../wiki/en/Include-Shared-Commands.md:14
-msgid "`-v` or `--version` Output version information and exit"
-msgstr "`-v` of `--version` Laat de versie informatie zien"
+#~ msgid "`-6` or `--enableipv6` Enable IPv6 addressing (IPv4 is always enabled)"
+#~ msgstr "`-6` of `--enableipv6` Schakelt IPv6 adressen in (IPv4 is altijd ingeschakeld)"
+
+#~ msgid "`-v` or `--version` Output version information and exit"
+#~ msgstr "`-v` of `--version` Laat de versie informatie zien"
 
 #~ msgid "`-i` or `--inifile` Set location of initialization file (overrides default)"
 #~ msgstr "`-i` of `--inifile` Stel de locatie in van het ini-bestand (overschrijft de standaard)"
