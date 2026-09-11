@@ -17,7 +17,7 @@ msgstr ""
 
 #. type: Plain text
 #: ../wiki/en/Include-Server-Commands.md:20
-#, markdown-text, no-wrap
+#, no-wrap
 msgid ""
 "|<nobr> `-d` or `--discononquit`</nobr>| disconnect all Clients on quit |\n"
 "|<nobr> `-e` or `--directoryaddress`</nobr>| address of the Directory with which to register (or 'localhost' to run as a Directory) |\n"
