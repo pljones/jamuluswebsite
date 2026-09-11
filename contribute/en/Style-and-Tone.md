@@ -10,6 +10,12 @@ permalink: "/contribute/Style-and-Tone"
 
 While contributing to Jamulus or the website, you should also keep style and tone in mind. Have a look at the following guidelines.
 
+These guidelines apply to every contribution, including work drafted with AI assistance.
+
+Note: The `AGENTS.md` file in the website repository points automated contributors here, so this page stays the single source of truth.
+
+As in the [Jamulus repository](https://github.com/jamulussoftware/jamulus/blob/main/CONTRIBUTING.md#ownership), the person who submits a change is its author and owner: understand and stand behind every line, and answer the questions reviewers direct at you. Disclose AI-generated text at the end of a pull request description or comment, for example `> 🤖 Used AI: <model>, <harness>`.
+
 **Note:** It is very important to thoroughly proofread content before submitting it, as any corrections made later have a knock-on effect on translations.
 
 <details markdown="1">
@@ -26,7 +32,7 @@ While contributing to Jamulus or the website, you should also keep style and ton
 ### Keep it concise and specific.
  {:.no_toc}
 
-Avoid long-winded phrases and overly stylised language. Start simple, expand to details later, if at all ("inverted pyramid" style).
+Avoid long-winded phrases and overly stylised language. Start simple, expand to details later, if at all.
 
 ### Be direct, but not demanding.
  {:.no_toc}
@@ -41,7 +47,7 @@ Jamulus has users of varying skill levels ranging from complete beginner to audi
 ### Avoid using slang and euphemisms.
  {:.no_toc}
 
-Jamulus is used around the world and translated in five languages (possibly more!). Use plain english to provide users and translators an easier understanding of our content.
+Jamulus is used around the world and translated in many languages. Use plain english to provide users and translators an easier understanding of our content.
 
 ### Give solutions first.
  {:.no_toc}
@@ -59,9 +65,6 @@ Resist the temptation to say why something happens before offering a solution fo
 Informal English is preferred (e.g. "haven’t" not "have not". "Try to" not "Please attempt to").
 
 Try not to sound like a robot. Write conversationally, as if you were talking to a person.
-
-
-
 
 ## Capitalisation and references
 
@@ -83,9 +86,9 @@ Refer to UI labels in inverted commas (e.g. 'click on the "Mute" button')
 
 Jamulus is "Free and Open Source (FOSS)" (not "free software" or "open source")
 
-"Channel" The audio signal as part of a mix. "Mute a channel", "Maximum number of channels", "Group channels together" (not "Mute a person" because one person might be using multiple channels).
+"Channel" The audio signal as part of a mix. "Mute a channel", "Maximum number of channels" (not "Mute a person" because one person might be using multiple channels).
 
-"Fader" The UI that controls a channel. "Each fader has a "Mute" button", "The person’s fader" ,"Group faders together" (not "The person’s channel" or "Mute a Fader", not "Slider" or "Volume control")
+"Fader" The UI that controls a channel. "Each fader has a "Mute" button", "The person’s fader", "Group faders together" (not "The person’s channel" or "Mute a Fader", not "Slider" or "Volume control"). Grouping is a fader feature: moving one fader moves the others in its group, and each one sets its own channel’s gain.
 
 "Person" A human connected to a server (may be on multiple channels). We might say "a person on the server", or "the people who have muted themselves", rather than _musicians_ or _Channels_.
 
@@ -100,6 +103,16 @@ Jamulus is "Free and Open Source (FOSS)" (not "free software" or "open source")
 "Registration" When a Server is configured in Registered mode, it will be _listed_ when successfully registered by a Directory. Note that if a Directory is full, a Registered Server will not be _listed_ because it has not been successfully _registered_. Note in this case we prefer to say, "Register with a Directory".
 
 "Server List" This is the list of Servers maintained by a Directory.  A Server registers with a Directory to be _listed_ in that Directory’s _server list_.
+
+## Punctuation
+
+Content here is written for people, and some of it gets pasted into tools: commands, paths, configuration. Punctuation that reads fine on the page can break once pasted.
+
+Inside anything a reader will copy or a tool will parse - code spans and fenced blocks, command-line flags, URLs, file paths, YAML frontmatter, HTML attributes, dates and version strings - use plain ASCII `-`, `'` and `"` only. A curly quote or a long dash pasted into a shell command, a config file or a search box is not the character the tool expects, and it fails in ways the reader cannot see. Word processors and AI writing tools insert those characters automatically, so check your work before submitting.
+
+In prose, plain ASCII is the safe default and most pages already use it. Where a typographic character genuinely helps the reader it is acceptable, but it is never required. Do not convert a page from one style to the other as a change of its own: that produces a large diff with no benefit to the reader, and churn for translators.
+
+When quoting a literal label from the app, reproduce it exactly, including any trailing dots ("File > Connection Setup..."). Do not correct a real menu label.
 
 ## Units
 
