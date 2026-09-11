@@ -17,4 +17,4 @@
 |<nobr> `-T` or `--multithreading`</nobr>| use multithreading to make better use of multi-core CPUs and support more Clients |
 |<nobr> `-u` or `--numchannels`</nobr>| maximum number of channels |
 |<nobr> `-w` or `--welcomemessage`</nobr>| welcome message to display on connect (string or filename, HTML supported) |
-|<nobr> `-z` or `--startminimized`</nobr>| start minimizied |
+|<nobr> `-z` or `--startminimized`</nobr>| start minimized |

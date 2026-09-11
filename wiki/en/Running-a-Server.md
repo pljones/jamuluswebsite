@@ -161,7 +161,7 @@ See the table below for `hostname:port` values.
 
 **Note**: Semicolon and newline characters are not allowed in `[name]` and `[city]` within the `--serverinfo` argument. See the [Server mode-related options](#server-mode-related-options) for more information on the country code. 
 
-### Server Command Line Options
+### Server command line options
 
 ### Shared commands
 
